@@ -12,6 +12,10 @@ p {
   color: #808080;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /* Headings */
 
 .big-heading {
