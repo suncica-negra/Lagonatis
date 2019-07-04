@@ -156,6 +156,10 @@ a:hover {
   background-color: #e4f9f5;
 }
 
+#testimonial-carousel {
+  background-color: #66BFBF;
+}
+
 .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
@@ -167,16 +171,6 @@ a:hover {
   margin: 20px;
 }
 
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
 
 .boja_linka {
   color: #66BFBF;
