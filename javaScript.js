@@ -7,3 +7,7 @@ $(document).ready(function(){
 
     menuEight.addEventListener('click', addClassFunEight);
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
