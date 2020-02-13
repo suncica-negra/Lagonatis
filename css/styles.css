@@ -1,10 +1,9 @@
-
 body {
   font-family: "Montserrat";
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat-Bold";
 }
 
@@ -15,8 +14,6 @@ p {
 a:hover {
   text-decoration: none;
 }
-
-/* Headings */
 
 .big-heading {
   font-family: "Montserrat-Black";
@@ -29,13 +26,9 @@ a:hover {
   line-height: 1.5;
 }
 
-/* Containers */
-
-.container-fluid{
+.container-fluid {
   padding: 7% 15%;
 }
-
-/* Sections */
 
 .colored-section {
   background-color: #e4f9f5;
@@ -47,10 +40,8 @@ a:hover {
 }
 
 .mint-section {
-  background-color: #66BFBF; 
+  background-color: #66BFBF;
 }
-
-/* Navigation Bar */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -75,13 +66,9 @@ a:hover {
   font-family: "Montserrat-Light";
 }
 
-/* Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
-
-/* Title Section */
 
 #title {
   background-color: #e4f9f5;
@@ -93,16 +80,12 @@ a:hover {
   padding: 3% 15% 7%;
 }
 
-/* Title Image */
-
 .title-image {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
 }
-
-/* Features Section */
 
 #features {
   position: relative;
@@ -128,7 +111,6 @@ a:hover {
 .boja {
   color: #808080;
 }
-/* Testimonial Section */
 
 .skill-row {
   width: 50%;
@@ -171,7 +153,6 @@ a:hover {
   margin: 20px;
 }
 
-
 .boja_linka {
   color: #66BFBF;
 }
@@ -181,7 +162,6 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
-/* Pricing Section */
 
 #pricing {
   padding: 100px;
@@ -196,12 +176,6 @@ a:hover {
   padding: 3% 2%;
 }
 
-/* CTA Section */
-
-
-/* Footer Section */
-
-
 .social-icon {
   margin: 20px 20px;
   font-size: 3rem;
@@ -213,36 +187,77 @@ a:hover {
 }
 
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
-
   .title-image {
     position: static;
     transform: rotate(0);
   }
 }
 
+.menuEight span,
+.menuFive span,
+.menuFour span,
+.menuSeven span,
+.menuSix .span,
+.menuThree span,
+.menuTwo .span {
+  background-color: #66BFBF;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px .#000!important;
+}
 
+.menuEight {
+  width: 35px;
+  height: 30px;
+  position: relative;
+}
 
+.menuEight span {
+  position: absolute;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  width: 100%;
+  height: 4px;
+}
 
+.menuEight span:nth-child(1) {
+  top: 0;
+  left: 0;
+}
 
+.menuEight span:nth-child(2) {
+  top: 13px;
+  left: 0;
+}
 
+.menuEight span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
 
+.menuEight:not(.clickMenuEight):hover span:nth-child(1) {
+  transform: scaleX(.8);
+}
 
-.menuEight span,.menuFive span,.menuFour span,.menuSeven span,.menuSix
-.span,.menuThree span,.menuTwo
-.span{background-color:#66BFBF;border-radius:2px;box-shadow:1px 1px 1px
-.#000!important;}
+.menuEight:not(.clickMenuEight):hover span:nth-child(2) {
+  transform: scaleX(.5);
+}
 
-.menuEight{width:35px;height:30px;position:relative;}
-.menuEight span{position:absolute;transition:.3s cubic-bezier(.8,.5,.2,1.4);width:100%;height:4px;}
-.menuEight span:nth-child(1){top:0;left:0;}
-.menuEight span:nth-child(2){top:13px;left:0;}
-.menuEight span:nth-child(3){bottom:0;left:0;}
-.menuEight:not(.clickMenuEight):hover span:nth-child(1){transform:scaleX(.8);}
-.menuEight:not(.clickMenuEight):hover span:nth-child(2){transform:scaleX(.5);}
-.menuEight:not(.clickMenuEight):hover span:nth-child(3){transform:scaleX(.8);}
-.clickMenuEight span:nth-child(1),.clickMenuEight span:nth-child(3){top:13px;}
-.menuEight,.menuFive,.menuSeven,.menuSix{margin:10px;cursor:pointer;display:inline-block;}
+.menuEight:not(.clickMenuEight):hover span:nth-child(3) {
+  transform: scaleX(.8);
+}
+
+.clickMenuEight span:nth-child(1),
+.clickMenuEight span:nth-child(3) {
+  top: 13px;
+}
+
+.menuEight,
+.menuFive,
+.menuSeven,
+.menuSix {
+  margin: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
