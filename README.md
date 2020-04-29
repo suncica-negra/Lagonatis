@@ -1,5 +1,5 @@
 # Lagonatis
 
-Korišteni alati: **HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongooDB**
+Korišteni alati: **HTML, CSS, JavaScript**
 
 Web stranica je online: https://suncica-negra.github.io/Lagonatis/
